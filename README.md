@@ -1,25 +1,12 @@
 <div align="center"> 
 
 <h2> 
-Prompt-based test-time real image dehazing: a novel pipeline
-
-(ECCV 2024)
+Prompt-based test-time real image dehazing
 </h2>
-
-
-[Zixuan Chen](https://scholar.google.com.hk/citations?user=pwixOhcAAAAJ&hl=ja&oi=sra), [Zewei He](https://scholar.google.com.hk/citations?user=yCHs_IsAAAAJ&hl=ja&oi=sra), [Ziqian Lu](https://scholar.google.com.hk/citations?user=qx1yRVEAAAAJ&hl=zh-CN&oi=ao), [Xuecheng Sun](https://scholar.google.com.hk/citations?user=T70wj9gAAAAJ&hl=zh-CN&oi=ao), [Zheming Lu](https://person.zju.edu.cn/lzmhome/)
-
-Zhejiang University
-
-[![paper](https://img.shields.io/badge/ECCV'2024-Paper-<COLOR>.svg)](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09815.pdf)
 
 </div>
 <img src="figs/PTTD_fig1.png" style="zoom:48%;" />
 
-## :mega: News
-- **2024.10.27**: :fire::fire::fire: Implementations of AECRNet-PTTD is available now.
-- **2024.7.2**: :tada::tada::tada: Accepeted by ***ECCV 2024***
-- **2023.09.29**: Arxiv version of the paper are available now.
 
 ## Getting Started
 
@@ -64,17 +51,3 @@ We also provide scripts for performance evaluation on NTIRE datasets (resized O-
 python pttd.py --source RIDCP --model AECRNet --pretrained_path ./pretrained_checkpoints --ys ./ys/0543.jpg --input <PATH_TO_OHAZE_DATASET_INPUT> --output results_OHAZE
 python val.py --result_dir results_OHAZE --gt_dir <PATH_TO_OHAZE_DATASET_GT>
 ```
-
-## :love_you_gesture: Citation
-If you find our paper and repo are helpful for your research, please consider citing:
-```
-@article{chen2023promptbased,
-      title={Prompt-based test-time real image dehazing: a novel pipeline}, 
-      author={Zixuan Chen and Zewei He and Ziqian Lu and Zhe-Ming Lu},
-      booktitle = {European Conference on Computer Vision (ECCV)},
-      year = {2024}
-}
-```
-
-### Contact
-If you have any questions or suggestions about our paper and repo, please feel free to contact us via <zxchen@zju.edu.cn> or <zeweihe@zju.edu.cn>.
