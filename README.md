@@ -5,7 +5,6 @@ Prompt-based test-time real image dehazing
 </h2>
 
 </div>
-<img src="figs/PTTD_fig1.png" style="zoom:48%;" />
 
 
 ## Getting Started
@@ -15,8 +14,8 @@ Prompt-based test-time real image dehazing
 1. Clone this repo:
 
 ```
-git clone https://github.com/cecret3350/PTTD-Dehazing.git
-cd PTTD-Dehazing/
+git clone https://github.com/cecret3350/IERG5250-project.git
+cd IERG5250-project/
 ```
 
 2. Create a new conda environment and install dependencies:
